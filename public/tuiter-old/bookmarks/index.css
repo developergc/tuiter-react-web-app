@@ -1,0 +1,127 @@
+.wd-body{
+  height:100%;
+  width:97%;
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-width: 1px;
+}
+
+
+.wd-bookmarks{
+  padding: 14px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+.wd-wordBookmarks{
+  font-weight: bold;
+  font-size: larger;
+  position: relative;
+  left: 20px;
+}
+
+.wd-floatLeft{
+  float: left;
+}
+
+.wd-IconRight{
+  float: right;
+  position: relative;
+  top: -20px;
+}
+
+.wd-post{
+  padding: 12px;
+  display: flex;
+  border: 1px solid lightgray;
+  width: 95%;
+}
+
+.wd-userPic{
+  border-radius: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.wd-postFrame{
+  margin-left: 12px;
+  font-size: medium;
+  max-width: 353px;
+}
+
+.wd-name{
+  font-weight: bold;
+}
+
+.wd-inactive{
+  position: relative;
+  left: 5px;
+  color: grey;
+}
+
+.wd-postPic{
+  position: relative;
+  margin: 12px 1px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.wd-picTxt{
+  padding: 12px;
+}
+
+.wd-inactivePara{
+  color: gray;
+}
+
+.wd-mainImg{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.wd-locSplit{
+  position: relative;
+  top: 6px;
+}
+
+.wd-bottons{
+  display: flex;
+}
+
+.wd-botton{
+flex-basis: 100%;
+}
+
+.wd-btnTouched{
+  color: deeppink;
+}
+
+.wd-btnFormat{
+  text-decoration: none;
+  color: gray;
+}
+
+.wd-lineBlue{
+  color: deepskyblue;
+}
+.wd-userInfo{
+  display: flex;
+}
+
+.md-txtShiftRight{
+  position: relative;
+  left: 12px;
+}
+
+.wd-threeDots{
+  float: right;
+  position: relative;
+  top: 15px;
+}
+
+.wd-float-done{
+  clear: both;
+}
