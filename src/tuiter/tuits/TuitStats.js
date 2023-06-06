@@ -7,7 +7,7 @@ import {tuitFlipLike} from "../reducers/tuits-reducer";
 
 
 
-const TuitStats=({tuit,liked,likes})=>{
+const TuitStats=({tuit})=>{
 
   const dispatch = useDispatch();
   const likeFlip=(tuit)=>{
