@@ -11,8 +11,8 @@ const WhoToFollowListItem = (
             <img className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`}/>
           </div>
           <div className="col-8">
-            <div className="fw-bold">{who.userName}</div>
-            <div>@{who.handle}</div>
+            <div className="fw-bold ms-3">{who.userName}</div>
+            <div className="ms-3">@{who.handle}</div>
           </div>
           <div className="col-2">
             <button className="btn btn-primary rounded-pill float-end">Follow</button>
