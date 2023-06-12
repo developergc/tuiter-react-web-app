@@ -1,14 +1,14 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 import {AiFillCheckCircle, AiOutlineClose} from "react-icons/ai";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../services/tuits-thunks";
 import TuitStats from "./TuitStats";
 
 const TuitItem = ({tuit}) => {
 
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   }
 
   return (
