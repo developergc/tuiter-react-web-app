@@ -16,12 +16,12 @@ function ProfileScreen() {
     dispatch(updateUserThunk(profile));
   };
   useEffect(() => {
-    const fetchData = async () => {
-      const { payload } = await dispatch(profileThunk());
+    const profileProcess = async () => {
+      const {payload} = await dispatch(profileThunk());
       setProfile(payload);
     };
 
-    fetchData();
+    profileProcess();
   }, []);
 
   return (
