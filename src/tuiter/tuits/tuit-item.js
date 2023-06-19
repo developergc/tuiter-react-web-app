@@ -23,7 +23,7 @@ const TuitItem = ({tuit}) => {
           <div className="col-10">
             <AiOutlineClose className="float-end"
                             onClick={() => deleteTuitHandler(tuit._id)}/>
-            <span className="font-weight-bold">{tuit.userName}  </span>
+            <span className="font-weight-bold">{tuit.username}  </span>
             <AiFillCheckCircle className="text-primary"/>
             <span className="text-muted">  {tuit.handle} · {tuit.time}</span>
             <div>{tuit.tuit}</div>
