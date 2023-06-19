@@ -15,6 +15,7 @@ import {Provider} from "react-redux";
 import authReducer from "./reducers/auth-reducer";
 import LoginScreen from "./user/login-screen";
 import RegisterScreen from "./user/register-screen";
+import ProtectedRoute from "./user/protected-route";
 
 const store = configureStore(
     {reducer: {who: whoReducer, tuits: tuitsReducer,user:  authReducer}});
@@ -33,7 +34,7 @@ function Tuiter(){
                 <Route path="/home" element={<HomeScreen />} />
                 <Route path="/explore" element={<Index />} />
                 <Route path="/bookmarks" element={<BookmarksScreen />} />
-                <Route path="/profile" element={<ProfileScreen />} />
+                <Route path="/profile" element={ <ProtectedRoute> <ProfileScreen /> </ProtectedRoute>} />
                 <Route path="/login"    element={<LoginScreen    />} />
                 <Route path="/register" element={<RegisterScreen />} />
               </Routes>
